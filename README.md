@@ -1,32 +1,92 @@
 # KotlinExperience
 
-# Для старта программы
+## Для старта программы
 
-Скачать dev проект из репозитория [KotlinExperience](https://github.com/Gladkowi/KotlinExperience/tree/master/build).
+Скачать dev проект из репозитория [KotlinExperience](https://github.com/Gladkowi/KotlinExperience/tree/master/build)
+
+Входная строка указывается как аргумент
 
 Запуск кода intellij IDEA
 
 ### `Schift + F10`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## task1
+input: "the quick brown fox jumps over the lazy lazy lazy dog"
+output: 
+`
+the
+quick
+brown
+fox
+jumps
+over
+the
+lazy
+lazy
+lazy
+dog`
 
-### `npm test`
+****
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## task2
+input: "the quick brown fox jumps over the lazy lazy lazy dog"
+output:
+`
+brown
+dog
+fox
+jumps
+lazy
+lazy
+lazy
+over
+quick
+the
+the`
+****
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## task3
+input: "the quick brown fox jumps over the lazy lazy lazy dog"
+output:
+`
+brown
+dog
+fox
+jumps
+lazy
+over
+quick
+the`
+****
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## task4
+input: "the quick brown fox jumps over the lazy lazy lazy dog"
+output:
+`
+brown 1
+dog 1
+fox 1
+jumps 1
+lazy 3
+over 1
+quick 1
+the 2`
+****
+
+## task5
+input: "the quick brown fox jumps over the lazy lazy lazy dog"
+output:
+`
+lazy 3
+the 2
+brown 1
+dog 1
+fox 1
+jumps 1
+over 1
+quick 1`
+****
