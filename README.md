@@ -2,7 +2,7 @@
 
 ## Для старта программы
 
-Скачать dev проект из репозитория [KotlinExperience](https://github.com/Gladkowi/KotlinExperience/tree/master/build)
+Скачать dev проект из репозитория [KotlinExperience](https://github.com/Gladkowi/KotlinExperience/tree/master)
 
 Входная строка указывается как аргумент
 
